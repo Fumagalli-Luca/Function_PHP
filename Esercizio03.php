@@ -3,10 +3,10 @@ function CreaArray($a,$b){
     for($i =0 ; $i<$a; $i++){
         $array[$i] = rand(0,$b-1);
     }
-    //echo "dimensione ".count($array)."</br>";
+
     return $array;
 }
-/*funzione che stampa a video il contenuto di un array*/
+
 function stampaLista($array){
     foreach($array as $valore){
         echo "$valore, ";
